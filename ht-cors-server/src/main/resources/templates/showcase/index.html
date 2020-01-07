@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    <script>
+
+        var cxt = function () {
+            return "/cors-server";
+        };
+
+        var url = cxt + "/demo/sayHello";
+
+        $.ajax({
+            type: "post",
+            async: false,
+            url: url,
+            data: {keyWords: "test"},
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (json) {
+                alert('success');
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                console.log("服务器异常");
+                alert('fail');
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

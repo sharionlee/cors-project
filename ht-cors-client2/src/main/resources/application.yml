@@ -1,0 +1,14 @@
+server:
+  port: 1012
+  servlet:
+    context-path: /client2
+
+spring:
+  application:
+    name: client2
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8

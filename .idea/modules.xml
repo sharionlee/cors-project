@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cors.iml" filepath="$PROJECT_DIR$/.idea/cors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ht-cors-client/ht-cors-client.iml" filepath="$PROJECT_DIR$/ht-cors-client/ht-cors-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ht-cors-client2/ht-cors-client2.iml" filepath="$PROJECT_DIR$/ht-cors-client2/ht-cors-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ht-cors-server/ht-cors-server.iml" filepath="$PROJECT_DIR$/ht-cors-server/ht-cors-server.iml" />
+    </modules>
+  </component>
+</project>

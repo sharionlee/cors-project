@@ -1,0 +1,14 @@
+server:
+  port: 1010
+  servlet:
+    context-path: /cors-server
+
+spring:
+  application:
+    name: cors-server
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
